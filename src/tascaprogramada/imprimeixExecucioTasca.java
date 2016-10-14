@@ -32,6 +32,3 @@ public class imprimeixExecucioTasca {
      
     
 }
-
-
-//http://howtodoinjava.com/core-java/multi-threading/task-scheduling-with-executors-scheduledthreadpoolexecutor-example/
