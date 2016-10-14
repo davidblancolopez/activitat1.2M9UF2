@@ -23,7 +23,6 @@ public class imprimeixExecucioTasca {
     public void run() {
         DateFormat formatoHora = new SimpleDateFormat("HH:mm:ss");
         System.out.println(Thread.currentThread().getName() + "      "+ " Hora: " + formatoHora.format(new Date()));
-        
     }
     
     
