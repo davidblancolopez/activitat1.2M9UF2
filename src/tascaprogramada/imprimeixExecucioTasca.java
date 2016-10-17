@@ -11,24 +11,21 @@ import java.util.concurrent.ScheduledExecutorService;
 
 public class imprimeixExecucioTasca {
 
-    Calendar calendario = new GregorianCalendar();
     
-    private final ScheduledExecutorService executor;
+
     
     public imprimeixExecucioTasca() {
-        executor = (ScheduledExecutorService) Executors.newScheduledThreadPool(2);
+        
     }
     
     
     public void run() {
+        Calendar calendario = new GregorianCalendar();
+        
         DateFormat formatoHora = new SimpleDateFormat("HH:mm:ss");
         System.out.println(Thread.currentThread().getName() + "      "+ " Hora: " + formatoHora.format(new Date()));
     }
     
-    
-    public void terminaServidor() {
-        executor.shutdown();
-    }
      
     
 }
