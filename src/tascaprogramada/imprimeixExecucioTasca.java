@@ -20,9 +20,13 @@ public class imprimeixExecucioTasca implements Runnable {
     
     
     public void run() {
+        //Declaració del calendar.
         Calendar calendario = new GregorianCalendar();
         
+        //Creem un format per a mostrar la hora.
         DateFormat formatoHora = new SimpleDateFormat("HH:mm:ss");
+        
+        //Mostrem la hora amb el format anterior.
         System.out.println(" Hora: " + formatoHora.format(new Date()));
     }
     
