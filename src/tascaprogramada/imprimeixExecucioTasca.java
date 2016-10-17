@@ -23,7 +23,7 @@ public class imprimeixExecucioTasca {
         Calendar calendario = new GregorianCalendar();
         
         DateFormat formatoHora = new SimpleDateFormat("HH:mm:ss");
-        System.out.println(Thread.currentThread().getName() + "      "+ " Hora: " + formatoHora.format(new Date()));
+        System.out.println(" Hora: " + formatoHora.format(new Date()));
     }
     
      

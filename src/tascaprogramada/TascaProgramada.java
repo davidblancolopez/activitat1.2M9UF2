@@ -17,7 +17,7 @@ public class TascaProgramada {
     public static void main(String[] args) throws InterruptedException, ExecutionException {
         ScheduledExecutorService executor = (ScheduledExecutorService) Executors.newScheduledThreadPool(2);
         
-        imprimeixExecucioTasca  iet = new imprimeixExecucioTasca ();
+        imprimeixExecucioTasca iet = new imprimeixExecucioTasca();
         
         executor.scheduleWithFixedDelay(iet, 2, 3, TimeUnit.SECONDS);
         
