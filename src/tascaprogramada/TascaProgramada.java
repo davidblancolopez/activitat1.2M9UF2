@@ -21,7 +21,7 @@ public class TascaProgramada {
         
         executor.scheduleWithFixedDelay(iet, 2, 3, TimeUnit.SECONDS);
         
-        iet.terminaServidor();
+        
     }
     
     
